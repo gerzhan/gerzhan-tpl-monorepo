@@ -1,0 +1,60 @@
+{
+  "folders": [
+    {
+      "path": "./apps",
+      "name": "applications",
+    },
+    {
+      "path": "./packages",
+      "name": "packages",
+    },
+    {
+      "path": ".",
+      "name": "_all_",
+    },
+  ],
+  "settings": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": true,
+    "dochub.isEnterpriseMode": false,
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[asciidoc]": {
+      "editor.wordWrap": "on",
+      "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off",
+      },
+      "editor.defaultFormatter": "ryliepavlik.khr-reflow-vscode",
+    },
+    "[markdown]": {
+      "editor.unicodeHighlight.ambiguousCharacters": false,
+      "editor.unicodeHighlight.invisibleCharacters": false,
+      "diffEditor.ignoreTrimWhitespace": false,
+      "editor.wordWrap": "on",
+      "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off",
+      },
+      "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    },
+  },
+  "extensions": {
+    "recommendations": [
+      "dochub.dochub",
+      "hack4impact.h4i-recommendations",
+      "esbenp.prettier-vscode",
+      "EditorConfig.EditorConfig",
+      "formulahendry.auto-rename-tag",
+      "RyliePavlik.khr-reflow-vscode",
+      "asciidoctor.asciidoctor-vscode",
+      "yzhang.markdown-all-in-one",
+    ],
+  },
+}
